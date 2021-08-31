@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(rgb(0, 204, 255),white,orange,#1eb3e0,pink);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+     position: relative;
+     margin-left: 150px;
+    
+}
+.container{
+    display: relative;
+    align-items: center;
+    justify-content: center;
+}
+.formfull{
+    display: relative;
+    justify-content:center;
+    align-items: center;
+    padding:5px;
+    margin:5px;
+    height:auto;
+    background-image:inherit;
+}
+.submit-button{
+    position: relative;
+    font-weight: bold;
+    size: 10px;
+    margin-top: 05px;
+    padding: 5px;
+    margin-left: 350px;
+    background-color: rgb(146, 223, 152);
+}
+.suggestions{
+    padding: 10px;
+    margin-top: 10px;
+    width: 60%;
+    height: 60px;
+}
+#dropdown{
+    width: 35%;
+    height: 25px;
+}
+label, p{
+    font-size: 18px;
+}
+#suggestion-label{
+    font-size: 22px;
+}
+footer{
+    font-size: 15px;
+}

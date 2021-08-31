@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title  id="title">Engineers Survey Form</title>
+</head>
+<link rel="stylesheet" href="stylesheet.css">
+<div class="container">
+<body>
+    <header class="header">
+        <h1 id="title" class="text-center">Engineers Survey Form</h1>
+        <p id="description" class="description text-center">
+          Thank you for your time Complete this Survey
+        </p>
+      </header>
+    <form class="formfull" id="survey-form">
+         <div class="formfull">
+            <label id="name-label" for="name"> 
+              Name
+              <input 
+              type="text" 
+              required 
+              placeholder="Enter Your Name Here"
+              name="name"
+              id="name"
+              class="inputs">
+            </label>
+        </div>
+        <div class="formfull">
+            <label id="email-label" for="email" >
+             Email
+              <input 
+               type="email"
+               placeholder="Enter your Email ID"
+               name="email"
+               class="inputs"
+               id="email"
+               required >
+            </label>
+        </div>
+        <div class="formfull">
+            <label id="number-label" for="age" >
+              Age
+              <input 
+              type="number"
+              placeholder="Age" 
+              max="3" 
+              min="1"
+              name="age"
+              id="number"
+             class="inputs">
+            </label>
+        </div>
+        <div class="formfull">
+            <p>Which is or was your Branch?</p>
+            <select class="inputs" id="dropdown" required>
+                <option disabled selected value>Select Your Branch Here</option>
+                <option value="CS"> Computer Science</option>
+                <option value="civil"> Civil Engineering</option>
+                <option value="mechanical"> Mechanical Engineering</option>
+                <option value="electronics"> Electronics Engineering</option>
+                <option value="Other"> Other Engineering Stream</option>
+                </select>
+        </div>
+        <div class="fullform">
+           <p> How Was Your College Overall </p>
+           <label>
+            <input id="bad" type="radio" name="radio" value="bad" class="input-radio" checked> Bad
+           </label>
+           <label>
+            <input id="okay" type="radio" name="radio" value="Okay"class="input-radio">
+            Okay
+           </label>
+           <label>
+            <input id="good" type="radio" name="radio" value="Good"  class="input-radio">Good
+           </label>
+           <label>
+            <input id="awesome" type="radio" name="radio" value="awesome" class="input-radio">Awesome
+           </label>   
+        </div>
+        <div class="fullform">
+          <p>How were your College Days</p>
+          <label>
+              <input 
+              type="checkbox" 
+              class="input-checkbox" 
+              name="preference"
+              value="happy" > Happy
+          </label>
+          <label>
+            <input 
+            type="checkbox" 
+            class="input-checkbox" 
+            name="preference"
+            value="sad" > Sad
+        </label>
+        <label>
+            <input 
+            type="checkbox" 
+            class="input-checkbox" 
+            name="preference"
+            value="Devastating" > Devastating
+        </label>
+        <label>
+            <input 
+            type="checkbox" 
+            class="input-checkbox" 
+            name="preference"
+            value="Balanced" > Balanced
+        </label>
+        <label>
+            <input 
+            type="checkbox" 
+            class="input-checkbox" 
+            name="preference"
+            value="Lifechanging" > Lifechanging
+        </label>
+        <label>
+            <input 
+            type="checkbox" 
+            class="input-checkbox" 
+            name="preference"
+            value="Legendary" > Legendary
+        </label>
+        </div>
+        <div class="fullform">
+         <label id="suggestion-label"><br>
+             Suggestions you want to give to the New Engineering Students</br>
+             <textarea class="suggestions" id="suggestion" name="suggestion" placeholder="Share your Experience" >
+             </textarea>
+         </label>    
+        </div>
+        <div class="fullform">
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+        </div>
+    </form>
+    <footer>Copyright 
+        © Isaac 2021</footer>
+</body>
+</div>
+</html>
